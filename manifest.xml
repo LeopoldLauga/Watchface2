@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="com.garmin.iq" version="3">
+  <iq:application
+    entry="WatchFaceApp"
+    id="a3d5e7b9-1234-5678-abcd-ef0123456789"
+    launcherIcon="@Drawables.LauncherIcon"
+    minApiLevel="3.2.0"
+    name="@Strings.AppName"
+    type="watchface"
+    version="1.0.0">
+
+    <iq:products>
+      <iq:product id="fr165"/>
+      <iq:product id="fr165m"/>
+    </iq:products>
+
+    <iq:permissions>
+      <iq:uses-permission id="Activity"/>
+      <iq:uses-permission id="ActivityMonitor"/>
+      <iq:uses-permission id="Weather"/>
+      <iq:uses-permission id="SensorHistory"/>
+    </iq:permissions>
+
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+
+  </iq:application>
+</iq:manifest>
